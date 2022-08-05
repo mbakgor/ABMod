@@ -1,6 +1,7 @@
 package net.mbkgr.abmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.mbkgr.abmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +13,6 @@ public class ABMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
