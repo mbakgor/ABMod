@@ -17,7 +17,7 @@ public class ModItems {
         // THEN YOU NEED TO CREATE A JSON FILE FOR ITEM LIKE example_item.json
         // FOR LAST, ADD ITEM TEXTURE FILE TO /textures/item AT .PNG FORMAT
         public static final Item exampleItem = registerItem("example_item",
-                new Item(new FabricItemSettings().group(ItemGroup.MISC )));
+                new Item(new FabricItemSettings().group(ModItemGroup.ANIME_BATTLE_GROUP )));
 
 
         private static Item registerItem(String name, Item item) {

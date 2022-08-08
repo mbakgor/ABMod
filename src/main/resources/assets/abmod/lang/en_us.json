@@ -1,3 +1,11 @@
 {
-  "item.abmod.example_item": "Example Item"
+  "item.abmod.example_item": "Example Item",
+
+  "itemGroup.abmod.anime_battle_group": "Anime Battle Tab",
+
+  "key.category.abmod.tutorial": "Tutorial Mod Keys",
+  "key.abmod.get_mana": "Get Mana Key",
+
+  "message.abmod.getting_mana": "Getting Mana",
+  "message.abmod.no_air": "No Air Nearby"
 }
