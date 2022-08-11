@@ -18,13 +18,16 @@ public class StartingBoxItem extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
 
-        ItemStack randomClassGenerator = new ItemStack(ModItems.randomClassGenerator);
-
 
 
         if(!world.isClient() && hand == Hand.MAIN_HAND) {
 
-           user.giveItemStack(randomClassGenerator);
+           user.giveItemStack(new ItemStack(ModItems.randomClassGenerator));
+           user.giveItemStack(new ItemStack(ModItems.STRING_LEGGINGS));
+           user.giveItemStack(new ItemStack(ModItems.STRING_CHESTPLATE));
+           user.giveItemStack(new ItemStack(ModItems.STRING_BOOTS));
+           user.giveItemStack(new ItemStack(ModItems.STRING_HELMET));
+
            user.getInventory().removeStack(user.getInventory().selectedSlot);
 
 

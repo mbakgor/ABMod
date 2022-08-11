@@ -2,7 +2,6 @@ package net.mbkgr.abmod.item;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
@@ -12,7 +11,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum AnimeArmorMaterial implements ArmorMaterial {
+public enum CustomArmorMaterial implements ArmorMaterial {
     LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
@@ -25,8 +24,8 @@ public enum AnimeArmorMaterial implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
-    ANIME("anime", 45, new int[]{3, 9, 15, 6}, 25,
-            SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
+    STRING("string", 45, new int[]{1, 2, 4, 3}, 25,
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
     DIAMOND("diamond", 33, new int[]{3, 6, 8, 3}, 10,
@@ -52,7 +51,7 @@ public enum AnimeArmorMaterial implements ArmorMaterial {
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private AnimeArmorMaterial(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    private CustomArmorMaterial(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;

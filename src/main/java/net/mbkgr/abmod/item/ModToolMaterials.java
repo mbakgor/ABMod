@@ -12,8 +12,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    ANIME(4, 4002, 12.0F, 0.0F, 22, () -> {
-        return Ingredient.ofItems(ModItems.ANIME_INGOT);
+    STRING(4, 4002, 12.0F, 0.0F, 22, () -> {
+        return Ingredient.ofItems(Items.STRING);
     });
 
     private final int miningLevel;

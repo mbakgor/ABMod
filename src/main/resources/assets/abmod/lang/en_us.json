@@ -1,9 +1,8 @@
 {
-  "item.abmod.example_item": "Example Item",
-  "item.abmod.anime_helmet": "Anime Helmet",
-  "item.abmod.anime_chestplate": "Anime Chestplate",
-  "item.abmod.anime_leggings": "Anime Leggings",
-  "item.abmod.anime_boots": "Anime Boots",
+  "item.abmod.string_helmet": "String Helmet",
+  "item.abmod.string_chestplate": "String Chestplate",
+  "item.abmod.string_leggings": "String Leggings",
+  "item.abmod.string_boots": "String Boots",
 
   "item.abmod.chakra_stone": "Chakra Stone",
   "item.abmod.starting_box": "Starting Box",

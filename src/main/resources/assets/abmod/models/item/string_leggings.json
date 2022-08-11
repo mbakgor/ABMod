@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "abmod:item/anime_chestplate.png"
+    "layer0": "abmod:item/string_leggings"
   }
 }
