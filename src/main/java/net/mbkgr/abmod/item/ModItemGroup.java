@@ -8,7 +8,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
 
-    public static final ItemGroup ANIME_BATTLE_GROUP = FabricItemGroupBuilder.build(new Identifier(ABMod.MOD_ID, "anime_battle_group"), () -> new ItemStack(ModItems.exampleItem));
+    public static final ItemGroup ANIME_BATTLE_GROUP = FabricItemGroupBuilder.build(new Identifier(ABMod.MOD_ID, "anime_battle_group"),
+            () -> new ItemStack(ModItems.ANIME_INGOT));
 
 
 }
