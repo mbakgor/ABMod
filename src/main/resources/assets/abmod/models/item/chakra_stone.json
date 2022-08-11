@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "abmod:item/example_item"
+    "layer0": "abmod:item/chakra_stone"
   }
 }

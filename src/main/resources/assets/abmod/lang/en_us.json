@@ -1,5 +1,11 @@
 {
-  "item.abmod.example_item": "Example Item",
+    "item.abmod.chakra_stone": "Chakra Stone",
+
+  "item.abmod.starting_box": "Starting Box",
+
+  "item.abmod.random_class_generator_item": "Random Class Generator",
+
+  "block.abmod.chakra_stone_ore": "Chakra Stone Ore",
 
   "itemGroup.abmod.anime_battle_group": "Anime Battle Tab",
 
