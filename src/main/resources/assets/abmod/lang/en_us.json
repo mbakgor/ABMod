@@ -1,13 +1,18 @@
 {
-    "item.abmod.chakra_stone": "Chakra Stone",
+  "item.abmod.example_item": "Example Item",
+  "item.abmod.anime_helmet": "Anime Helmet",
+  "item.abmod.anime_chestplate": "Anime Chestplate",
+  "item.abmod.anime_leggings": "Anime Leggings",
+  "item.abmod.anime_boots": "Anime Boots",
 
+  "item.abmod.chakra_stone": "Chakra Stone",
   "item.abmod.starting_box": "Starting Box",
-
   "item.abmod.random_class_generator_item": "Random Class Generator",
-
   "block.abmod.chakra_stone_ore": "Chakra Stone Ore",
 
   "itemGroup.abmod.anime_battle_group": "Anime Battle Tab",
+
+
 
   "key.category.abmod.tutorial": "Tutorial Mod Keys",
   "key.abmod.get_mana": "Get Mana Key",
